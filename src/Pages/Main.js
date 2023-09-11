@@ -61,7 +61,7 @@ li{
   border: 1px solid #ddd;
   padding: 5px 20px;
   border-radius:  5px; cursor: pointer;
-  background-color: ${(props)=> props.theme.colors.BgColor};
+  background-color: ${(props)=> props.theme.colors.ContentBg};
   color:${(props)=> props.theme.colors.Color};
   &.on{
     background-color: violet;

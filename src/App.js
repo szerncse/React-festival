@@ -22,7 +22,7 @@ function App() {
       Secondary : "orangered",
       BgColor: "#e9f1f6",
       Color : "#000",
-      ContenBg: "#fff"
+      ContentBg: "#fff"
     }
   }
   const dark = {
@@ -31,7 +31,7 @@ function App() {
       Secondary : "#e9e9e9",
       BgColor: "#333",
       Color : "#e9e9e9",
-      ContenBg: "#272929"
+      ContentBg: "#272929"
     }
   }
   
