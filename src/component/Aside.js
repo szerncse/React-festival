@@ -10,20 +10,24 @@ import { styled } from 'styled-components'
     right: 20px;
     bottom: 20px;
     border: 1px solid #ddd;
+    box-shadow: 0px 0px 3px gray;
+    background-color:  ${(props) => props.theme.colors.Color};
     border-color: #fff;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
     width: 50px;
     height: 50px;
     line-height: 50px;
     text-align: center;
+    color: ${(props) => props.theme.colors.Primary};
 
     `
 function Aside({ThemeSelect, themeConfig}) {
   return (
     <ASide >
 
-      <FontAwesomeIcon onClick={ThemeSelect} icon={themeConfig === 'light' ? faMoon : faSun} size='lg'/>
+      <FontAwesomeIcon onClick={ThemeSelect}
+       icon={themeConfig === 'light' ? faMoon : faSun} size='lg'/>
     </ASide>
   )
 }
